@@ -54,13 +54,6 @@ main {
     display: flex;
 }
 
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    display: inline-block;
-    box-sizing: border-box;
-    
-}
 
 p {
     padding: 10px;
@@ -99,8 +92,13 @@ header nav {
 
 header nav li {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 20px 20px;
 
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /*================================
@@ -123,3 +121,26 @@ img .hero {
 
 /*================================
 
+Body Styling and Footer Styling
+
+=================================*/
+
+article figure {
+    float: right;
+    padding: 2px 25px;
+    width: 45%;
+}
+
+section.left {
+    width: 45%;
+    padding: 20px 30px 20px 36px;
+}
+
+section.right {
+    width: 45%;
+
+}
+
+section {
+    display: inline-block;
+}
