@@ -78,3 +78,23 @@ header {
     height: 150px;
 }
 
+.logo {
+    width: 40%;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header nav {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    position: relative;
+    top: 40px;
+}
+
+header nav li {
+    display: inline-block;
+
+}
