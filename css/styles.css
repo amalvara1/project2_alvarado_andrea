@@ -70,12 +70,13 @@ Header Styling
 
 header {
     background: #000000;
+    opacity: 80%;
     z-index: 100;
     height: 150px;
 }
 
 .logo {
-    width: 40%;
+    width: 50%;
     display: inline-block;
     text-align: center;
     padding: 20px 0;
@@ -87,7 +88,7 @@ header nav {
     text-align: center;
     vertical-align: top;
     position: relative;
-    top: 40px;
+   
 }
 
 header nav li {
@@ -119,6 +120,9 @@ img .hero {
     text-align: center; 
 }
 
+
+
+
 /*================================
 
 Body Styling and Footer Styling
@@ -131,16 +135,77 @@ article figure {
     width: 45%;
 }
 
+article p{
+    color:#000000;
+}
+
 section.left {
-    width: 45%;
+    width: 42%;
     padding: 20px 30px 20px 36px;
 }
 
 section.right {
-    width: 45%;
-
+    width: 100%;
+    padding: 20px;
+    background-color: #6E897E;
+    opacity: 43%;
 }
+
+section.right h2 {
+    font-weight: bold;
+    font-size: 1.25em;
+    
+}
+
+.pattern {
+    text-align: center;
+    width: 20%
+    
+}
+
 
 section {
     display: inline-block;
+}
+
+
+/*==============================
+
+Footer Styling
+
+==============================*/
+
+footer {
+    background:#000000;
+    opacity: 82%;
+    padding: 80px;
+
+}
+
+footer p {
+    color: white;
+}
+
+
+/*===============================
+
+Media Queries
+
+=================================*/
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+
+    header {
+        width: 100%;
+    }
+    
+    header nav {
+        display: inline-block;
+    }
+    
+    header nav li{
+        padding: 10px;
+    }
+
 }
