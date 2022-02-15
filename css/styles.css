@@ -533,3 +533,17 @@ Media Query 1700px and up
         }
     
 }
+
+/*=============================
+
+About Us Styling
+
+==============================*/
+
+
+section.intro-about,
+section.middle-about,
+section.end-about {
+    display: block;
+    width: 30%;
+}
