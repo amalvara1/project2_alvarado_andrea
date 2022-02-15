@@ -303,7 +303,7 @@ Media Query 526px -766px
 
     header nav {
         display: block;
-        width: 70%;
+    
     }
     
     header nav li {
@@ -347,5 +347,55 @@ Media Query 526px -766px
         font-size: 1.125em;
     }
     
-
     }
+
+/*============================
+
+Media Query 767px -991px
+
+==============================*/
+
+@media screen and (min-width: 767px) and (max-width: 991px) {
+
+
+    .logo {
+        display: inline-block;
+        width: 20%;
+    }
+
+
+    section.left,
+    section.right {
+        width: 42%;
+        display: inline-block;
+        padding: auto;
+    }
+
+ html,body{
+            overflow-x: hidden;
+        }
+    
+
+
+}
+
+/*============================
+
+Media Query 992px -1199px
+
+==============================*/
+
+
+
+
+
+
+
+
+
+
+/*============================
+
+Media Query 1200px -1699px
+
+==============================*/
