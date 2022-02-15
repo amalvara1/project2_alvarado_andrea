@@ -541,9 +541,23 @@ About Us Styling
 ==============================*/
 
 
+main {
+    width: 45%;
+    display: block;
+    padding: 20em;
+}
+
+
+.intro-about h1 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
 section.intro-about,
 section.middle-about,
 section.end-about {
     display: block;
-    width: 30%;
+    
 }
