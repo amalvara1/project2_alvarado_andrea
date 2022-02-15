@@ -297,14 +297,21 @@ Media Query 526px -766px
     }
     
     .logo {
-        display: block;
+        display: inline-block;
         width: 20%;
     }
 
     header nav {
-        display: block;
+        display: inline-block;
+        padding: .5em;
+        width: 68%;
     
     }
+
+    ul li a {
+        font-size: 2em;
+    }
+
     
     header nav li {
         position: relative;
@@ -356,13 +363,24 @@ Media Query 767px -991px
 ==============================*/
 
 @media screen and (min-width: 767px) and (max-width: 991px) {
-
+    img.logo {
+        padding: 1.125em;
+        width: 15%;
+    }
 
     .logo {
         display: inline-block;
-        width: 20%;
     }
 
+    header nav {
+        display: inline-block;
+        padding: .5em;
+        width: 60%;
+    }
+
+    ul li a {
+        font-size: .7em;
+    }
 
     section.left,
     section.right {
@@ -376,7 +394,6 @@ Media Query 767px -991px
         }
     
 
-
 }
 
 /*============================
@@ -385,13 +402,40 @@ Media Query 992px -1199px
 
 ==============================*/
 
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    img.logo {
+        padding: 1.125em;
+        width: 12%;
+    }
 
+    .logo {
+        display: inline-block;
+    }
 
+    header nav {
+        display: inline-block;
+        padding: .5em;
+        width: 70%;
+    
+    }
 
+    ul li a {
+        font-size: 1em;
+    }
 
+    section.left,
+    section.right {
+        width: 42%;
+        display: inline-block;
+        padding: auto;
+    }
 
+ html,body{
+            overflow-x: hidden;
+        }
+    
 
-
+}
 
 
 /*============================
@@ -399,3 +443,39 @@ Media Query 992px -1199px
 Media Query 1200px -1699px
 
 ==============================*/
+
+@media screen and (min-width: 1200px) and (max-width: 1699px) {
+    img.logo {
+        padding: 1em;
+        width: 10%;
+    }
+
+    .logo {
+        display: inline-block;
+    }
+
+    header nav {
+        display: inline-block;
+        padding: .5em;
+        width: 75%;
+    
+    }
+
+    ul li a {
+        font-size: 1.125em;
+    }
+
+    section.left,
+    section.right {
+        width: 42%;
+        display: inline-block;
+        padding: auto;
+        height: 25em;
+    
+    }
+
+ html,body{
+            overflow-x: hidden;
+        }
+    
+}
