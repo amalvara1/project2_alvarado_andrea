@@ -415,6 +415,7 @@ Media Query 992px -1199px
     header nav {
         display: inline-block;
         padding: .5em;
+        
         width: 70%;
     
     }
@@ -472,6 +473,53 @@ Media Query 1200px -1699px
         padding: auto;
         height: 25em;
     
+    }
+
+ html,body{
+            overflow-x: hidden;
+        }
+    
+}
+
+/*============================
+
+Media Query 1700px and up
+
+==============================*/
+
+@media screen and (min-width: 1700px) {
+    img.logo {
+        padding: 1em;
+        width: 9%;
+    }
+
+    .logo {
+        display: inline-block;
+    }
+
+    header nav {
+        display: inline-block;
+        padding: .5em;
+        width: 80%;
+    
+    }
+
+    ul li a {
+        font-size: 1.125em;
+    }
+
+    section.left,
+    section.right {
+        width: 42%;
+        display: inline-block;
+        padding: auto;
+        height: 30em;
+    
+    }
+
+    section.left img {
+        width: 50%;
+        padding: 0;
     }
 
  html,body{
