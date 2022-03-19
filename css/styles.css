@@ -50,10 +50,18 @@ Universal Styling and Header
 
 =============================*/
 
-main {
-    display: flex;
+.container {
+    width: 100%;
+
 }
 
+main {
+    display: block;
+}
+
+html,body{
+    overflow-x: hidden;
+}
 
 p {
     padding: 10px;
@@ -73,41 +81,64 @@ Header Styling
 
 header {
     background: #000000;
-    opacity: 80%;
+    opacity: 87%;
     width: 100%;
-    z-index: 100;
-    height: 150px;
+    height: 100px;
+    display:flex;
     
 }
 
-.logo {
-    width: 50%;
-    display: inline-block;
-    text-align: center;
-    padding: 20px 0;
+.logo img{
+    width: 40%;
+    
 }
 
 header nav {
-    width: 45%;
-    display: inline-block;
+    width: 100%;
     text-align: center;
     vertical-align: top;
     position: relative;
    
 }
 
-header nav li {
-    display: inline-block;
-    padding: 20px 20px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 700;
-    font-style: normal;
 
+/*=========================
+
+Hamburger Navigation
+
+=========================*/
+
+#hamitems {
+    position: sticky;
+    top:0;
+    width: 100%;
 }
 
-ul li a {
-    text-decoration: none;
+#navright {
+    float: right;
+    width: 30%;
+    vertical-align: top;
+    text-align: right;
+    font-size: .75em;
+}
+
+#navright label {
+    display: inline-block;
     color: #ffffff;
+    font-size: 3em;
+    padding: .5em;
+}
+
+#hamitems {
+    display: none;
+}
+
+#navright input:checked ~ #hamitems {
+    display: block;
+}
+
+#hamburger {
+    display: none;
 }
 
 /*================================
@@ -118,7 +149,6 @@ Hero Styling
 
 img .hero {
     width: 100%;
-    background-position: center;
     background-size: cover;
     position: relative;
 }
@@ -127,11 +157,10 @@ img .hero {
     display: none;
 }
 
-.hero {
+.responsive {
     width: 100%;
-    text-align: center; 
-}
-
+    height: auto;
+  }
 
 /*================================
 
@@ -204,86 +233,18 @@ Media Queries
 
 =================================*/
 
-@media screen and (min-width: 320px) and (max-width: 525px) {
-
-    main {
-        display: block;
-    }
-
-    .container {
-        width: 100%;
-    
-    }
-
+@media screen and (min-width: 320px) {
+   
     header {
         width:100%;
         height: 20%;
        
     }
-    
-    .logo {
-        padding: 0;
-        display: block;
-        width: 40%;
-    }
-
-    .logo img{
-        text-align:center;
-    }
-
-    header nav {
-        display: inline-block;
-        width: 100%;
-    }
-    
-    header nav li{
-        padding: 10px;
-        font-size: 0.125em;
-    }
-
-    .hero-img{
-        position: relative;
-        background-size: contain;
-        margin-top: 100px;
-
-    }
-
-    html,body{
-        overflow-x: hidden;
-    }
-    section.left,
-    section.right {
-        width: 100%;
-        display: block;
-        padding: 0;
-    }
-
-    section.left img {
-        width: 100%;
-    }
-
-    section.right h2, 
-    section.right p {
-        padding: 20px;
-    }
-
-    article p {
-        padding: 30px;
-    }
-    
-    footer p {
-        font-size: .75em;
-    }
-    
+  
 }
 
-/*==============================
 
-Media Query 526px -766px
-
-==============================*/
-
-@media screen and (min-width: 526px) and (max-width: 766px) {
+@media screen and (min-width: 526px){
 
     main {
         display: block;
@@ -364,13 +325,8 @@ Media Query 526px -766px
     
     }
 
-/*============================
 
-Media Query 767px -991px
-
-==============================*/
-
-@media screen and (min-width: 767px) and (max-width: 991px) {
+@media screen and (min-width: 767px){
     img.logo {
         padding: 1.125em;
         width: 15%;
@@ -404,13 +360,8 @@ Media Query 767px -991px
 
 }
 
-/*============================
 
-Media Query 992px -1199px
-
-==============================*/
-
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px)  {
     img.logo {
         padding: 1.125em;
         width: 12%;
@@ -447,13 +398,7 @@ Media Query 992px -1199px
 }
 
 
-/*============================
-
-Media Query 1200px -1699px
-
-==============================*/
-
-@media screen and (min-width: 1200px) and (max-width: 1699px) {
+@media screen and (min-width: 1200px){
     img.logo {
         padding: 1em;
         width: 10%;
@@ -489,11 +434,6 @@ Media Query 1200px -1699px
     
 }
 
-/*============================
-
-Media Query 1700px and up
-
-==============================*/
 
 @media screen and (min-width: 1700px) {
     img.logo {
@@ -557,21 +497,14 @@ main.about {
     font-size: 3em;
 }
 
-section.intro-about,
-section.middle-about,
-section.end-about {
-    display: block;
-    
-}
 
 /*===============================
 
 About us - Media Queries
 
-320px-525px
 =================================*/
 
-@media screen and (min-width: 320px) and (max-width: 525px) {
+@media screen and (min-width: 320px) {
 
     main.about {
         width: 60%;
@@ -586,12 +519,7 @@ About us - Media Queries
 
 }
 
-/*===============================
-
-Media Queries  525px-767px
-=================================*/
-
-@media screen and (min-width: 525px) and (max-width: 767px) {
+@media screen and (min-width: 525px){
 
     main.about {
         width: 60%;
