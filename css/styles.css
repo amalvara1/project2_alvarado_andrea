@@ -123,12 +123,14 @@ img .hero {
     position: relative;
 }
 
+.hero img[alt="spinning pottery"] {
+    display: none;
+}
+
 .hero {
     width: 100%;
     text-align: center; 
 }
-
-
 
 
 /*================================
