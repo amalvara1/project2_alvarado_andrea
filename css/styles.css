@@ -67,6 +67,8 @@ h1 {
     font-family: proxima-nova, sans-serif;
     font-weight: 600;
     font-style: normal;
+    padding: 10px;
+    font-size: 1.5em;
 }
 
 h2 {
@@ -81,7 +83,7 @@ h3 {
     font-style: normal;
 }
 
-p {
+p, figcaption {
     padding: 10px;
     font-size: 1.125em;
     line-height: 1.2;
@@ -210,7 +212,9 @@ Body Styling and Footer Styling
 
 =================================*/
 
-
+.membership {
+    background-color: #E0E7E4;
+}
 
 
 
@@ -230,6 +234,7 @@ footer {
 
 footer p {
     color: white;
+    text-align: right;
 }
 
 
