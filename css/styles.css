@@ -237,10 +237,36 @@ footer p {
     
 }
 
+/*=============================
+
+About Us Styling
+
+==============================*/
+
+
+.about h2 {
+    padding: .5em;
+    font-size: 1.25em;
+}
+
+.about h3 {
+    padding: .5em;
+    font-size: 1.125em;
+
+}
+
+.about h1 {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2em;
+    text-align: left;
+}
+
 
 /*===============================
 
-Index Media Queries
+Media Queries
 
 =================================*/
 
@@ -254,7 +280,19 @@ Index Media Queries
     .membership p{
         padding: 1em;
     }
+
+
+/*--------About Page MQ 320px------------*/
+
+
+/*--------Membership Page MQ 320px------------*/
+
+
+/*--------Schdule Page MQ 320px------------*/
+
+
 }
+
 
 @media screen and (min-width: 576px){
 
@@ -286,7 +324,17 @@ Index Media Queries
     }
 
    
-    }
+    
+
+/*--------About Page MQ 576px------------*/
+
+
+/*--------Membership Page MQ 576px------------*/
+
+
+/*--------Schdule Page MQ 576px------------*/
+
+}
 
 
 @media screen and (min-width: 768px){
@@ -366,6 +414,34 @@ Index Media Queries
     footer p {
         font-size: 1em;
     }
+
+
+/*--------About Page MQ 768px------------*/
+
+
+.owner,
+.instructors,
+.assistants {
+    display: flex;
+    flex-direction: reverse;
+    align-items: center;
+}
+
+.about article {
+    max-width: 50%;
+    padding-right: 20px;
+}
+
+.about aside {  
+    padding-left: 1.25em;
+}
+
+/*--------Membership Page MQ 768px------------*/
+
+
+/*--------Schdule Page MQ 768px------------*/
+
+
 }
 
 
@@ -395,67 +471,37 @@ Index Media Queries
         font-size: 1.5em;
         padding: 1.25em; 
     }
+
+
+/*--------About Page MQ 992px------------*/
+
+    .about p{
+        font-size: 1.3em;
+    }
+/*--------Membership Page MQ 992px------------*/
+
+
+/*--------Schdule Page MQ 992px------------*/
+
 }
 
 
-@media screen and (min-width: 1200px)  {
+@media screen and (min-width: 1200px){
    
     .hero button {
         top: 106%;
     }
-   
-}
 
 
-/*=============================
+/*--------About Page MQ 1200px------------*/
 
-About Us Styling
-
-==============================*/
+/*--------Membership Page MQ 1200px------------*/
 
 
-h2 {
-    padding: .5em;
-    font-size: 1.25em;
-}
-
-h3 {
-    padding: .5em;
-    font-size: 1.125em;
-
-}
-
-.intro-about h1 {
-    font-family: proxima-nova, sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 3em;
-}
-
-
-/*===============================
-
-About us - Media Queries
-
-=================================*/
-
-@media screen and (min-width: 320px) {
-
+/*--------Schdule Page MQ 1200px------------*/
 
 
 }
 
-@media screen and (min-width: 525px){
-
-    main.about {
-        width: 60%;
-        padding: 5em;
-
-    }
-
-    .intro-about h1 {
-        font-size: 2em;
-    }
 
 
-}
