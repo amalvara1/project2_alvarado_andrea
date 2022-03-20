@@ -295,6 +295,40 @@ Media Queries
         width: 30%;
     }
 
+    figure.logo{
+        width: 70%;
+
+    }
+
+    #navright {
+        width: 70%;
+        line-height: 1.7em;
+    }
+    #hamitems {
+        display: flex;
+        float: right;
+    }
+
+    #hamitems li {
+        flex-grow: 1;
+        flex-basis: 0;
+        padding: 2em;
+        text-align: center;
+    
+    }
+
+    #hamitems a {
+        border-top:none;
+        display: block;
+        padding: .5em;
+        margin: 30px 5px 5px 1px;
+        
+    }
+
+    #navright label {
+        display: none;
+    }
+
     .hero img[alt="vertical spinning pottery"] {
         display: none;
     }
@@ -305,51 +339,62 @@ Media Queries
 
     .hero button {
         position: absolute;
-        top: 77%;
+        top: 62%;
         left: 44%;
         width: 23%;
         padding: 0.5em 0;
         border-radius: 0.5em;
     }
     
+    .home aside {
+        display: inline;
+        width: 50%;
+        float: left;
+    }
 
+    .home article {
+        display: inline;
+        width: 50%;
+        float: right;
+    }
+
+    .membership p{
+        font-size: 1em;
+        padding: 1.25em; 
+    }
+
+    footer p {
+        font-size: 1em;
+    }
 }
 
 
 @media screen and (min-width: 992px)  {
-    img.logo {
-        padding: 1.125em;
-        width: 12%;
+   
+    .hero button {
+        position: absolute;
+        top: 80%;
+        left: 44%;
+        width: 23%;
+        padding: 0.5em 0;
+        border-radius: 0.5em;
+    }
+  
+    #hamitems a {
+        font-size: 1.2em;
+        margin: 3.125em .625em .625em .375em;
     }
 
-    .logo {
-        display: inline-block;
+    .home h1{
+        font-size: 2em;
+        padding: 1.25em;
+    }
     }
 
-    header nav {
-        display: inline-block;
-        padding: .5em;
-        
-        width: 70%;
-    
+    .membership p{
+        font-size: 1.5em;
+        padding: 1.25em; 
     }
-
-    ul li a {
-        font-size: 1em;
-    }
-
-    section.left,
-    section.right {
-        width: 42%;
-        display: inline-block;
-        padding: auto;
-    }
-
- html,body{
-            overflow-x: hidden;
-        }
-    
-
 }
 
 
@@ -363,30 +408,7 @@ Media Queries
         display: inline-block;
     }
 
-    header nav {
-        display: inline-block;
-        padding: .5em;
-        width: 75%;
-    
-    }
-
-    ul li a {
-        font-size: 1.125em;
-    }
-
-    section.left,
-    section.right {
-        width: 42%;
-        display: inline-block;
-        padding: auto;
-        height: 25em;
-    
-    }
-
- html,body{
-            overflow-x: hidden;
-        }
-    
+   
 }
 
 
