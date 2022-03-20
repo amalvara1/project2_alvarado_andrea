@@ -212,7 +212,7 @@ Body Styling and Footer Styling
 
 =================================*/
 
-.membership {
+.new-membership {
     background-color: #E0E7E4;
 }
 
@@ -266,6 +266,31 @@ About Us Styling
 
 /*===============================
 
+
+Membership Styling
+
+===============================*/
+
+.membership img {
+    border-radius: 50%;
+}
+
+.membership button {
+    width: 50%;
+    padding: 0.5em 0;
+    margin: 1.75em;
+    border-radius: 0.5em;
+}
+
+.membership p {
+    font-size: 1.125em;
+    padding: 1.5em;
+}
+
+
+
+/*===============================
+
 Media Queries
 
 =================================*/
@@ -277,7 +302,7 @@ Media Queries
         height: 20%;  
     }
   
-    .membership p{
+    .new-membership p{
         padding: 1em;
     }
 
@@ -318,19 +343,26 @@ Media Queries
         font-size: 1.25em;
     }
 
-    .membership p{
+    .new-membership p{
         font-size: 1.5em;
         padding: 2em; 
     }
 
-   
-    
 
 /*--------About Page MQ 576px------------*/
 
 
 /*--------Membership Page MQ 576px------------*/
 
+
+.membership p {
+    font-size: 1.5em;
+    padding: 1.25em;
+}
+
+.membership button {
+    font-size: 1.2em;
+}
 
 /*--------Schdule Page MQ 576px------------*/
 
@@ -406,7 +438,7 @@ Media Queries
         float: right;
     }
 
-    .membership p{
+    .new-membership p{
         font-size: 1em;
         padding: 1.25em; 
     }
@@ -439,6 +471,29 @@ Media Queries
 /*--------Membership Page MQ 768px------------*/
 
 
+.member-list{
+    display: flex;
+    flex-flow:row;
+    align-items: center;
+    width: 100%;;
+}
+
+.membership img {
+    width: 70%;
+    padding: .5em;
+}
+
+.membership p{
+    font-size: .75em;
+}
+
+.membership button {
+    width: 45%;
+    padding: 0.5em 0;
+    margin: 1.75em;
+    border-radius: 0.5em;
+}
+
 /*--------Schdule Page MQ 768px------------*/
 
 
@@ -467,7 +522,7 @@ Media Queries
         padding: 2.5em;
     }
 
-    .membership p{
+    .new-membership p{
         font-size: 1.5em;
         padding: 1.25em; 
     }
