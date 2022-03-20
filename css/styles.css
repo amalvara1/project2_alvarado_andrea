@@ -240,7 +240,7 @@ footer p {
 
 /*===============================
 
-Media Queries
+Index Media Queries
 
 =================================*/
 
@@ -414,12 +414,16 @@ About Us Styling
 ==============================*/
 
 
-main.about {
-    width: 60%;
-    display: block;
-    padding: 15em;
+h2 {
+    padding: .5em;
+    font-size: 1.25em;
 }
 
+h3 {
+    padding: .5em;
+    font-size: 1.125em;
+
+}
 
 .intro-about h1 {
     font-family: proxima-nova, sans-serif;
@@ -437,15 +441,6 @@ About us - Media Queries
 
 @media screen and (min-width: 320px) {
 
-    main.about {
-        width: 60%;
-        padding: 5em;
-
-    }
-
-    .intro-about h1 {
-        font-size: 2em;
-    }
 
 
 }
