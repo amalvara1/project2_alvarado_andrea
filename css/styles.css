@@ -372,16 +372,11 @@ Media Queries
 @media screen and (min-width: 992px)  {
    
     .hero button {
-        position: absolute;
         top: 80%;
-        left: 44%;
-        width: 23%;
-        padding: 0.5em 0;
-        border-radius: 0.5em;
     }
   
     #hamitems a {
-        font-size: 1.2em;
+        font-size: 1.125em;
         margin: 3.125em .625em .625em .375em;
     }
 
@@ -391,6 +386,11 @@ Media Queries
     }
     }
 
+    .new-student img {
+        width: 85%;
+        padding: 2.5em;
+    }
+
     .membership p{
         font-size: 1.5em;
         padding: 1.25em; 
@@ -398,16 +398,11 @@ Media Queries
 }
 
 
-@media screen and (min-width: 1200px){
-    img.logo {
-        padding: 1em;
-        width: 10%;
+@media screen and (min-width: 1200px)  {
+   
+    .hero button {
+        top: 106%;
     }
-
-    .logo {
-        display: inline-block;
-    }
-
    
 }
 
