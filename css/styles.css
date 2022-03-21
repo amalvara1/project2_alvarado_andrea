@@ -293,18 +293,18 @@ Membership Styling
 
 ============================*/
 
-.shop-pot img {
+.rslides img {
     border-radius: 50%;
 }
 
-.shop-pot button {
+.rslides button {
     width: 50%;
     padding: 0.5em 0;
     margin: 1.75em;
     border-radius: 0.5em;
 }
 
-.shop p {
+.rslides p {
     font-size: 1.125em;
     padding: 1.5em;
     text-align: center;
@@ -560,22 +560,22 @@ Media Queries
 
 /*--------Shop Page MQ 768px------------*/
 
-.shop-pot{
+.shop-container{
     display: flex;
-    flex-flow: wrap-reverse;
-    align-items: center;
+    flex-wrap: inherit;
 }
 
-.shop-pot li {
-    width: 30%;
+
+.rslides li {
+    width: 100%;
     padding: .5em;
 }
 
-.shop-pot p{
+.rslides p{
     font-size: 1em;
 }
 
-.shop-pot button {
+.rslides button {
     width: 45%;
     padding: 0.5em 0;
     margin: 1.75em;
