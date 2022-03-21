@@ -530,7 +530,7 @@ Media Queries
 }
 
 .shop-pot p{
-    font-size: .75em;
+    font-size: 1em;
 }
 
 .shop-pot button {
@@ -580,7 +580,11 @@ Media Queries
 /*--------Membership Page MQ 992px------------*/
 
 
-/*--------Schdule Page MQ 992px------------*/
+/*--------Shop Page MQ 992px------------*/
+
+.shop-pot p{
+    font-size: 1.25em;
+}
 
 }
 
@@ -597,7 +601,7 @@ Media Queries
 /*--------Membership Page MQ 1200px------------*/
 
 
-/*--------Schdule Page MQ 1200px------------*/
+/*--------Shop Page MQ 1200px------------*/
 
 
 }
