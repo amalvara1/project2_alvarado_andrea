@@ -560,9 +560,9 @@ Media Queries
 
 /*--------Shop Page MQ 768px------------*/
 
-.shop-container{
+.shop-container {
     display: flex;
-    flex-wrap: inherit;
+    flex-flow:row;
 }
 
 
@@ -624,7 +624,7 @@ Media Queries
 
 /*--------Shop Page MQ 992px------------*/
 
-.shop-pot p{
+.shop-container p{
     font-size: 1.25em;
 }
 
